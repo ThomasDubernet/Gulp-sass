@@ -11,5 +11,20 @@
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest",
     "gulp-sass": "latest"
-  }
+  },
+  "description": "Initialise project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasDubernet/Gulp-sass.git"
+  },
+  "author": "TD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasDubernet/Gulp-sass/issues"
+  },
+  "homepage": "https://github.com/ThomasDubernet/Gulp-sass#readme"
 }
