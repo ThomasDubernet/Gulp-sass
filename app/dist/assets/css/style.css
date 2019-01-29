@@ -166,7 +166,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 /*------------ IMAGE TEXT -------------------*/
 .cont {
   position: relative;
@@ -205,7 +204,8 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-=======
+}
+
 .btnFooterCard {
   padding: 0 10px;
   color: #212529;
@@ -236,5 +236,4 @@ span.number {
   border: solid 2px white;
   border-radius: 50%;
   background-color: #ffc107;
->>>>>>> bastien
 }
