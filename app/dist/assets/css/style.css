@@ -173,3 +173,27 @@
   border-radius: 15px;
   background-color: #ffc107;
 }
+
+.participants {
+  position: relative;
+}
+
+.avatarAbsolute {
+  position: absolute;
+  left: 15px;
+}
+
+span.number {
+  font-weight: 700;
+  line-height: 30px;
+  position: absolute;
+  left: 30px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  color: #212529;
+  border: solid 2px white;
+  border-radius: 50%;
+  background-color: #ffc107;
+}
