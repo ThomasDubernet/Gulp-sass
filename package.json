@@ -1,6 +1,6 @@
 {
   "name": "starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/ThomasDubernet/Gulp-sass.git"
   },
-  "author": "TD",
+  "author": "Thomas & Bastien",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ThomasDubernet/Gulp-sass/issues"
