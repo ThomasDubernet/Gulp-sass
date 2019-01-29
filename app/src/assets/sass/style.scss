@@ -1,7 +1,127 @@
+<<<<<<< HEAD
 .searchBar{
     box-shadow: 1px 1px 1px 1px #C7C4C3;
     border: none;
 }
 .avatar {
     height: 10%;
+=======
+/*-----------BASE-----------*/
+.ft-bold{
+    font-weight: 500;
+}
+.ftp-9{
+    font-size: 90%;
+}
+.list-none{
+    list-style: none;
+}
+.opa-full{
+    opacity: 1;
+}
+.flr{
+    float: right;
+}
+.h-50{
+    height: 50%;
+}
+.w-50{
+    width: 50%;
+}
+.pp-3{
+    padding: 3%;
+}
+.ppl-3{
+    padding-left: 3%;
+}
+.ppr-3{
+    padding-right: 3%;
+}
+.pplr-3{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.pptb-3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.mplr-3{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.mptb-3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ppt-3{
+    padding-top: 3%;
+}
+.ppb-3{
+    padding-bottom: 3%;
+}
+.pp-10{
+    padding: 10%;
+}
+.p-none{
+    padding: 0 !important;
+}
+.mp-3{
+    margin: 3%;
+}
+.mp-6{
+    margin: 6%;
+}
+.m-10-15{
+    margin: 10px 15px;
+}
+.mpl-3{
+    margin-left: 3%;
+}
+.mpr-3{
+    margin-right: 3%;
+}
+.mpt-3{
+    margin-top: 3%;
+}
+.mpb-3{
+    margin-bottom: 3%;
+}
+.mpb-none{
+    margin-bottom: 0;
+}
+.mp-10{
+    margin: 10%;
+}
+.h-30{
+    height: 30%!important;
+}
+.w-30{
+    width: 30%!important;
+}
+.w-20{
+    width: 20%!important;
+}
+.w-50{
+    width: 50%!important;
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+.flex-grow-2{
+    flex-grow: 2 !important;
+}
+/*-----------HEADER----------*/
+.searchBar{
+    border: none;
+    box-shadow: 1px 1px 1px 1px #C7C4C3;
+}
+
+/*-----------SECTION ANNONCES --------------*/
+.start-card{
+    height: 40px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+>>>>>>> ThomasD
 }
