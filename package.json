@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/ThomasDubernet/Gulp-sass/issues"
   },
-  "homepage": "https://github.com/ThomasDubernet/Gulp-sass#readme"
+  "homepage": "https://github.com/ThomasDubernet/Gulp-sass#readme",
+  "dependencies": {}
 }
