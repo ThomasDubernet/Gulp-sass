@@ -1,5 +1,13 @@
-<<<<<<< HEAD
-=======
+/* HEAD */
+.searchBar {
+  border: none;
+  box-shadow: 1px 1px 1px 1px #c7c4c3;
+}
+
+.avatar {
+  height: 10%;
+}
+
 /*-----------BASE-----------*/
 .ft-bold {
   font-weight: 500;
@@ -138,16 +146,11 @@
 }
 
 /*-----------HEADER----------*/
->>>>>>> ThomasD
 .searchBar {
   border: none;
   box-shadow: 1px 1px 1px 1px #c7c4c3;
 }
 
-<<<<<<< HEAD
-.avatar {
-  height: 10%;
-=======
 /*-----------SECTION ANNONCES --------------*/
 .start-card {
   height: 40px;
@@ -156,5 +159,4 @@
 .avatar {
   width: 40px;
   height: 40px;
->>>>>>> ThomasD
 }
