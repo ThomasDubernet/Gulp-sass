@@ -165,3 +165,11 @@
   margin: 0;
   padding: 0;
 }
+
+.btnFooterCard {
+  padding: 0 10px;
+  color: #212529;
+  border-color: #ffc107;
+  border-radius: 15px;
+  background-color: #ffc107;
+}
