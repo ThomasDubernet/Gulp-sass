@@ -128,3 +128,43 @@
     margin:0;
     padding:0;
 }
+
+/*------------ IMAGE TEXT -------------------*/
+
+.cont {
+    position: relative;
+    text-align: center;
+  }
+  
+  .bot-l {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+  }
+  
+  .top-l {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+  }
+  
+  .top-r {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bot-r {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: #ffd500;
+  }
+  
+  .bot-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
