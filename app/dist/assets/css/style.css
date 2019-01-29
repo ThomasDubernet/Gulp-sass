@@ -162,6 +162,10 @@
   flex-grow: 2 !important;
 }
 
+.bd-white {
+  background: white;
+}
+
 /*-----------HEADER----------*/
 .searchBar {
   border: none;
@@ -181,6 +185,17 @@
 .row {
   margin: 0;
   padding: 0;
+}
+
+.hearth {
+  padding-right: 15px;
+}
+
+.btn-join {
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  border-radius: 2.5rem;
 }
 
 /*------------ IMAGE TEXT -------------------*/
@@ -223,7 +238,7 @@
           transform: translate(-50%, -50%);
 }
 
-/* button shared */
+/*-------------------------------------------------------*/
 .btnFooterCard {
   padding: 0 10px;
   color: #212529;
@@ -265,3 +280,5 @@ span.number {
   border-radius: 50%;
   background-color: #ffc107;
 }
+
+/*------------ SLIDER ------------*/
