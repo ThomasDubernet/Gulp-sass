@@ -7,10 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Bootsrap -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- BXSLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- My CSS's file -->
     <link rel="stylesheet" href="dist/assets/css/style.css">
+    <!-- My script-->
+    <link rel="stylesheet" href="dist/assets/js/main.js">
+    <!-- Script BxSlider-->
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+        });
+    </script>
 </head>
 <body>
     <header class="container mptb-3">
@@ -35,16 +49,29 @@
                 <div class="cont">
                     <img class="card-img-top" src="Img/Home/Card/maximilien-t-scharner-318691-unsplash.png">
                     <div class="top-l pp-3">day trip</div>
-                    <div class="top-r pp-3">2</div>
+                    <div class="top-r pp-3">
+                        <div>
+                            <img src="Webdesign/List/img/mike-fox-467499-unsplash@2x.png" width="36">
+                            <img class="avatarAbsolute" src="Webdesign/List/img/elizeu-dias-520676-unsplash@2x.png" width="36">
+                            <span class="number">+2</span>
+                        </div>
+                    </div>
                     <div class="bot-l pp-3">Bali</div>
                     <div class="bot-r font-weight-bold pp-3">ON TRIP</div>
+                    <a href="" class="btn btn-warning btn-join">Join</a>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Bali</h5>
+                <div class="card-body pp-6">
                     <p class="card-text">On a trip to America, looking for someone to join me on this epic journey through American.</p>
                 </div>
-                <div class="card-footer">
-            </div>
+                <div class="container bd-white mp-3 pp-3 border-top foot-card">
+                    <div class="row justify-content-between">
+                        <div class="row">
+                            <img class="hearth" src="Webdesign/List/img/heart (1).png" alt="">
+                            <img src="Webdesign/List/img/share-2.png" alt="">
+                        </div>
+                        <img src="Webdesign/List/img/ic_bookmark.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-sm-12">
@@ -91,7 +118,24 @@
             </div>
         </div>
         
+
+        
     </div>
+</section>
+<!--   CAROUSEL -->
+<section>
+
+    <ul class="bxslider">
+        <li><img src="Webdesign/List/img/seth-doyle-151914-unsplash.png" alt=""> </li>
+        <li><img src="Webdesign/List/img/steve-roe-678030-unsplash.png" alt=""> </li>
+        <li><img src="Webdesign/List/img/alex-block-300193-unsplash.png" alt=""> </li>
+        <li><img src="Webdesign/List/img/seth-doyle-151914-unsplash.png" alt=""> </li>
+        <li><img src="Webdesign/List/img/steve-roe-678030-unsplash.png" alt=""> </li>
+        <li><img src="Webdesign/List/img/alex-block-300193-unsplash.png" alt=""> </li>
+    </ul>
+
+
+
 </section>
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
